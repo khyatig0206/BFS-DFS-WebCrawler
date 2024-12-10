@@ -9,7 +9,7 @@ const RealTimeBFSVisualization = () => {
   const wsRef = useRef(null);
 
   useEffect(() => {
-    const ws = new WebSocket(`{import.meta.env.VITE_BASE_URL}/ws/bfs-crawl`);
+    const ws = new WebSocket(`${import.meta.env.VITE_BASE_URL}/ws/bfs-crawl`);
     wsRef.current = ws;
 
     ws.onopen = () => {
