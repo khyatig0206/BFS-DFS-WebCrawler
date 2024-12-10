@@ -9,7 +9,7 @@ const RealTimeDFSVisualization = () => {
   const wsRef = useRef(null);
 
   useEffect(() => {
-    const ws = new WebSocket(`{import.meta.env.VITE_BASE_URL}/ws/crawl`);
+    const ws = new WebSocket(`${import.meta.env.VITE_BASE_URL}/ws/crawl`);
     wsRef.current = ws;
 
     ws.onopen = () => {
