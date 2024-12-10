@@ -73,7 +73,7 @@ async def dfs_crawl(url, websocket: WebSocket):
                 stack.append(link)
                 parent_map[link] = current
 
-            await asyncio.sleep(0.1)  # Simulate delay
+            await asyncio.sleep(0.5)  # Simulate delay
 
 
 @app.websocket("/ws/crawl")
@@ -125,7 +125,7 @@ async def bfs_crawl(url, websocket: WebSocket):
                 queue.append(link)
                 parent_map[link] = current
 
-            await asyncio.sleep(0.1)  # Simulate delay
+            await asyncio.sleep(0.5)  # Simulate delay
 
 @app.websocket("/ws/bfs-crawl")
 async def crawl(websocket: WebSocket):
