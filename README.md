@@ -5,7 +5,7 @@ Web Crawler Visualization is a project that demonstrates web crawling using both
 
 ## checkout the live site: 
 https://bfs-dfs-webcrawler-production.up.railway.app/
-enter any url like https://quotes.toscrape.com/ as seed url.
+- enter any url like https://quotes.toscrape.com/ as seed url.
 ## Features
 - Real-time visualization of web crawling (BFS and DFS).
 - Interactive graph representation of crawled URLs.
