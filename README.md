@@ -4,7 +4,7 @@
 Web Crawler Visualization is a project that demonstrates web crawling using both Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms, visualized in real-time on a user-friendly interface. The backend is implemented with FastAPI, while the frontend leverages React.js and the `react-force-graph-2d` library to display the crawling process.
 
 ## checkout the live site: 
-https://bfs-dfs-webcrawler-production.up.railway.app/
+https://bfs-dfs-web-crawler.vercel.app/
 - enter any url like https://quotes.toscrape.com/ as seed url.
 ## Features
 - Real-time visualization of web crawling (BFS and DFS).
